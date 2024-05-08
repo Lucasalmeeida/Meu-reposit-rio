@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+
+div.container {
+    margin: auto;
+    position: relative;
+    width: 500px;
+    height: 700px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px black;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+div.inside {
+    position: absolute;
+    height: 0px;
+    width: 440px;
+    border-radius: 100px;
+
+    top: 5%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+article {
+    font-size: 20px;
+    text-align: ;
+}
